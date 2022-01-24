@@ -4,11 +4,6 @@ import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 const Question = ({ title, info }) => {
   const [btnIcon, setBtnIcon] = useState(true);
 
-  // const changeIcon = () => {
-  //   if (btnIcon === 0) setBtnIcon(1);
-  //   else setBtnIcon(0);
-  // };
-
   return (
     <article className="question">
       <header>
